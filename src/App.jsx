@@ -1,37 +1,20 @@
-import styles from "./style"
+import React from 'react';
+import Nav from './components/Nav';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./pages/home"
+import Sponsor from "./pages/sponsor"
 
-import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us } from "./components"
 
 const App = () => (
-  <div className='bg-primary w-full overflow-hidden'>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Nav />
-      </div>
+  <Router>
+    <div>
+      <Nav />
+      <Routes>
+        <Route path="Robeartics-Website/" element={<Home />} />
+        <Route path="Robeartics-Website/sponsor" element={<Sponsor />} />
+      </Routes>
     </div>
-
-    <div className={`bg.primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Us />
-      </div>
-    </div>
-
-    <div className={`bg.primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Goals />
-        <Bot />
-        <Sponsors /> 
-        {/* Sponsors reference from vitejs.dev */}
-        <Team />
-        <CTA />
-        <Contact />
-        <Footer />
-        hi
-      </div>
-    </div>
-
-  </div>
+  </Router>
 );
 
 export default App

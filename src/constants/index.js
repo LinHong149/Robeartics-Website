@@ -4,22 +4,27 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    to: "Robeartics-Website/sponsor",
   },
   {
     id: "goals",
     title: "Goals",
+    to: "Robeartics-Website/sponsor",
   },
   {
     id: "sponsors",
     title: "Sponsors",
+    to: "Robeartics-Website/sponsor",
   },
   {
     id: "team",
     title: "Team",
+    to: "Robeartics-Website/sponsor",
   },
   {
     id: "contact",
     title: "Contact",
+    to: "Robeartics-Website/sponsor",
   },
 ];
 
