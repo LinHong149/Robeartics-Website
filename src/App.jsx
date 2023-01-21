@@ -27,6 +27,7 @@ const App = () => (
         <CTA />
         <Contact />
         <Footer />
+        hi
       </div>
     </div>
 
