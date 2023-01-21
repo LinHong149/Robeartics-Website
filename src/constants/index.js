@@ -1,4 +1,4 @@
-import { gmail, youtube, microgreen, studica, bethune, tdsb, solidworks, beaver, chimpanzee, deer, dolphin, donkey, duck, eagle, hawk, lynx, orangutan, owl, panda, shima, squirrel, weasel, wolf, wolf2, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, people01  } from "../assets";
+import { gmail, youtube, microgreen, studica, bethune, tdsb, solidworks, gvlawn, beaver, chimpanzee, deer, dolphin, donkey, duck, eagle, hawk, lynx, orangutan, owl, panda, shima, squirrel, weasel, wolf, wolf2, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, people01  } from "../assets";
 
 export const navLinks = [
   {
@@ -76,8 +76,8 @@ export const sponsors = [
   },
   {
     id: "sponsors-6",
-    icon: send,
-    link: "https://microgreen.ca",
+    icon: gvlawn,
+    link: "http://www.gvlawnsprinklers.com",
   },
 ];
 

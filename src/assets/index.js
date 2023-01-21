@@ -47,6 +47,7 @@ import studica from "./Studica.png";
 import bethune from "./Bethune.png";
 import tdsb from "./TDSB.png";
 import solidworks from "./Solidworks.png";
+import gvlawn from "./Gvlawn.png";
 
 import youtube from './Youtube.svg';
 import gmail from './Gmail.svg';
@@ -105,6 +106,7 @@ export {
   bethune,
   tdsb,
   solidworks,
+  gvlawn,
 
   youtube,
   gmail
