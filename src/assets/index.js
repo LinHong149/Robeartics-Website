@@ -6,7 +6,6 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -49,9 +48,10 @@ import bethune from "./Bethune.png";
 import tdsb from "./TDSB.png";
 import solidworks from "./Solidworks.png";
 
-import youtube from './Youtube.svg'
-import gmail from './Gmail.svg'
-import robearticslogo from './robearticsLogo.png'
+import youtube from './Youtube.svg';
+import gmail from './Gmail.svg';
+import robearticslogo from './robearticsLogo.png';
+import robot from './Robot.jpeg';
 
 export {
   airbnb,

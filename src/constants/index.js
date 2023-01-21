@@ -51,27 +51,33 @@ export const sponsors = [
   {
     id: "sponsors-1",
     icon: microgreen,
+    link: "https://microgreen.ca",
     title: "Rewards",
   },
   {
     id: "sponsors-2",
     icon: studica,
+    link: "https://www.studica.com",
   },
   {
     id: "sponsors-3",
     icon: bethune,
+    link: "https://www.bethuneci.com",
   },
   {
     id: "sponsors-4",
     icon: tdsb,
+    link: "https://www.tdsb.on.ca",
   },
   {
     id: "sponsors-5",
     icon: solidworks,
+    link: "https://www.solidworks.com",
   },
   {
     id: "sponsors-6",
     icon: send,
+    link: "https://microgreen.ca",
   },
 ];
 
@@ -228,11 +234,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partners",
-        link: "",
+        id: "sponsors"
       },
       {
         name: "Become a Partner",
-        link: "",
+        id: "contact"
       },
     ],
   },

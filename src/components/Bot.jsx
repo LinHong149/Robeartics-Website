@@ -1,7 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import {tdsb} from "../assets"
+import { robot } from "../assets"
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -32,7 +32,7 @@ const Bot = () =>  (
     </div>
 
     <div className={`${styles.paddingY} flex-1`}>
-      <img className={`${styles.marginY} rounded-[20px] object-cover`} src={tdsb} alt="" />
+      <img className={`${styles.marginY} rounded-[20px] object-cover`} src={robot} alt="" />
     </div>
 
 

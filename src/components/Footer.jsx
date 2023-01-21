@@ -7,13 +7,11 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
+          onClick={() => scroll`#${"home"}`}
           src={robearticslogo}
           alt="robeartics"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        {/* <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Unleashing Innovation, Achieving Excellence.
-        </p> */}
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
@@ -25,6 +23,7 @@ const Footer = () => (
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
+                  onClick={() => window.open(link.link)}
                   key={link.name}
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
