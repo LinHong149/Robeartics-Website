@@ -169,7 +169,7 @@ export const team = [
   {
     id: "team-15",
     name: "Ting Ting",
-    title: "Bulder",
+    title: "Builder",
     img: duck,
   },
   {
