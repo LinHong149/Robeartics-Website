@@ -3,7 +3,7 @@ import styles from "../style"
 import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us } from "../components"
 
 const Home = () => (
-  <div className='bg-primary w-full overflow-hidden'>
+  <div className={`bg-primary w-full overflow-hidden`}>
     {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Nav />
