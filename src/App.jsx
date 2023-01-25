@@ -4,9 +4,12 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home"
 import Sponsor from "./pages/sponsor"
 
+import ScrollToTop from './ScrollToTop';
+
 
 const App = () => (
   <Router>
+    <ScrollToTop/>
     <div>
       <Nav />
       <Routes>

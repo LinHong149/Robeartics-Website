@@ -147,10 +147,29 @@
   background: var(--black-gradient);
 }
 
+.sponsor-image:hover { 
+  filter: none;
+}
+
 .sponsor-image { 
   filter: grayscale(1);
 }
 
 .sponsor-card:hover .sponsor-image { 
   filter: none;
+}
+
+.hover__underline::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: auto;
+  background-color: #9dedf0;
+  border-radius: 1px;
+}
+
+.hover__underline:hover::after {
+  height: 6px;
+  margin-top: 2px;
+  transition-duration: 0.5s;
 }

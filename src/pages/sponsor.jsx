@@ -1,9 +1,10 @@
 import styles from "../style"
+import bgImage from "../assets/SponsorBackground.png"
 
-import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us } from "../components"
+import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us, SponsorsHero, SponsorsCTA, SponsorsInfo} from "../components"
 
 const Sponsor = () => (
-  <div className='bg-primary w-full overflow-hidden'>
+  <div className='bg-primary w-full overflow-hidden border-2 border-blue-400 '>
     {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Nav />
@@ -12,20 +13,20 @@ const Sponsor = () => (
 
     <div className={`bg.primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        THIS IS SPONSORS
-        <Us />
+        {/* <Us /> */}
       </div>
     </div>
 
-    <div className={`bg.primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div 
+      className={`bg.primary ${styles.paddingX} ${styles.flexStart} bg-contain bg-top bg-no-repeat`}
+      style={{ backgroundImage:`url(${bgImage})`}}
+    >
       <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Goals />
-        <Bot />
-        <Sponsors /> 
-        <Team />
-        <CTA />
-        <Contact />
+        <SponsorsHero /> 
+        {/* <Team /> */}
+        <SponsorsCTA />
+        <SponsorsInfo />
+        {/* <Contact /> */}
         <Footer />
       </div>
     </div>

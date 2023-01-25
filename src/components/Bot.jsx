@@ -25,10 +25,10 @@ const Bot = () =>  (
       <h2 className={styles.heading2}>
         Meet Rob, <br className="sm:block hidden" /> the product of our dedication.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
         The powerhouse of our team. A true athlete, built with cutting-edge technology and innovative design, it represents our team's passion, creativity, and determination. See it in action at our next competition!
       </p>
-      <Button styles={`mt-10`} />
+      <Button />
     </div>
 
     <div className={`${styles.paddingY} flex-1`}>

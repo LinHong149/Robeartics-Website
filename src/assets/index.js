@@ -53,6 +53,8 @@ import youtube from './Youtube.svg';
 import gmail from './Gmail.svg';
 import robearticslogo from './robearticsLogo.png';
 import robot from './Robot.jpeg';
+import sponsorbackground from './sponsorbackground.png';
+import sponsorimage from './SponsorImage.png';
 
 export {
   airbnb,
@@ -109,5 +111,7 @@ export {
   gvlawn,
 
   youtube,
-  gmail
+  gmail,
+  sponsorbackground,
+  sponsorimage,
 };

@@ -9,6 +9,10 @@ import Stats from "./Stats"
 import Team from "./Team"
 import Us from "./Us"
 
+import SponsorsHero from "./SponsorsHero"
+import SponsorsCTA from "./SponsorsCTA.jsx"
+import SponsorsInfo from './SponsorsInfo.jsx'
+
 export{
     Bot,
     Contact,
@@ -19,5 +23,9 @@ export{
     Sponsors,
     Stats,
     Team,
-    Us
+    Us,
+
+    SponsorsHero,
+    SponsorsCTA,
+    SponsorsInfo,
 };

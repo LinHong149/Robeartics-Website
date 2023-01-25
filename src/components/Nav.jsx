@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { close, robearticslogo, menu } from "../assets"
 import { navLinks } from "../constants"
 import styles from '../style';
@@ -9,23 +9,20 @@ const Nav = () => {
 
   return (
     <nav className={`w-full flex py-6 justify-between items-center navbar absolute ${styles.paddingX}`}>
-      <img onClick={() => scroll`#${"home"}`} src={robearticslogo} alt="Robeartics" className='object-cover w-[124px] h-[32px]'/>
+      <Link to="Robeartics-Website">
+        <img src={robearticslogo} alt="Robeartics" className='object-cover w-[124px] h-[32px]'/>
+      </Link>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white`}
           >
-            <a href={`#${nav.id}`}>
+            <a href={`#${nav.id}`} className="hover__underline">
               {nav.title}
             </a>
           </li>
         ))}
-        <li className={`font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white`}>
-          <Link to="Robeartics-Website/sponsor">
-            Sponsor
-          </Link>
-        </li>
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -49,11 +46,6 @@ const Nav = () => {
                   </a>
                 </li>
               ))}
-              <li className={`font-poppins font-normal cursor-pointer text-[16px] mb-0 text-white`}>
-                <Link to="Robeartics-Website/sponsor">
-                  Sponsor
-                </Link>
-              </li>
             </ul>
           </div>
       </div>
