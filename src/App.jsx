@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route, useLocation } from 'react-router
 // import Home from "./pages/home"
 // import Sponsor from "./pages/sponsor"
 
-import ScrollToTop from './ScrollToTop';
+// import ScrollToTop from './ScrollToTop';
 import AnimatedRoutes from './components/AnimatedRoutes';
 
 
