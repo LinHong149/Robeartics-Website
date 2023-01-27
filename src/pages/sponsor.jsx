@@ -1,10 +1,16 @@
 import styles from "../style"
 import bgImage from "../assets/SponsorBackground.png"
+import { motion } from "framer-motion/dist/framer-motion"
 
 import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us, SponsorsHero, SponsorsCTA, SponsorsInfo} from "../components"
 
 const Sponsor = () => (
-  <div className='bg-primary w-full overflow-hidden '>
+  <motion.div 
+    className='bg-primary w-full overflow-hidden '
+    initial={{width:0}}
+    animate={{width: "100%"}}
+    exit={{width: 0}}
+  >
     {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Nav />
@@ -31,7 +37,7 @@ const Sponsor = () => (
       </div>
     </div>
 
-  </div>
+  </motion.div>
 );
 
 export default Sponsor
