@@ -4,7 +4,7 @@ import bgImage from "../assets/SponsorBackground.png"
 import { Bot, Contact, CTA, Footer, Goals, Nav, Sponsors, Stats, Team, Us, SponsorsHero, SponsorsCTA, SponsorsInfo} from "../components"
 
 const Sponsor = () => (
-  <div className='bg-primary w-full overflow-hidden  '>
+  <div className='bg-primary w-full overflow-hidden '>
     {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Nav />
