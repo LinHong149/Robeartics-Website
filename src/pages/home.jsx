@@ -22,10 +22,10 @@ const Home = () => (
         <Stats />
         <Goals />
         <Bot />
+        <CTA />
         <Sponsors /> 
         {/* Sponsors reference from vitejs.dev */}
         <Team />
-        <CTA />
         <Contact />
         <Footer />
       </div>

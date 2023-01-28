@@ -1,6 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { motion } from "framer-motion";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row flex-1 p-6 w-[100%] rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`} >
@@ -21,12 +22,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Goals = () =>  (
   <section id="goals" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <motion.h2 className={styles.heading2}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 1, delay: 0.2}}>
         Our Goals, <br className="sm:block hidden" /> the direction of our dedication.
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      </motion.h2>
+      <motion.p className={`${styles.paragraph} max-w-[470px] mt-5`}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 1, delay: 0.2}}>
         Robeartics is dedicated to designing, building and competing with a highly advanced robot in the FIRST Robotics Competition while fostering teamwork, innovation, and learning.
-      </p>
+      </motion.p>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
