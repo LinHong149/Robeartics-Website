@@ -22,10 +22,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Bot = () =>  (
   <section id="features" className={layout.section}>
     <div className={`${layout.sectionInfo}`}>
-      <motion.h2 className={styles.heading2}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 1, delay: 0.2}}>
+      <motion.h2 className={styles.heading2}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.7 }} transition={{ duration: 1, delay: 0.2}}>
         Meet Rob, <br className="sm:block hidden" /> the product of our dedication.
       </motion.h2>
-      <motion.p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 1, delay: 0.2}}>
+      <motion.p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}  initial={{opacity:0}} whileInView={{opacity:1}} viewport={{ once: true, amount: 0.7 }} transition={{ duration: 1, delay: 0.2}}>
         The powerhouse of our team. A true athlete, built with cutting-edge technology and innovative design, it represents our team's passion, creativity, and determination. See it in action at our next competition!
       </motion.p>
     </div>

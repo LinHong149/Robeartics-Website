@@ -34,14 +34,14 @@ export const features = [
     icon: star,
     title: "Achieve Competitive Excellence",
     content:
-      "To excel in the FTC Robotics Competition with a highly advanced robot.",
+      "To excel in the FTC Robotics Competition with a highly advanced robot",
   },
   {
     id: "feature-2",
     icon: star,
     title: "Promote Collaborative Creativity",
     content:
-      "To foster teamwork and innovation among team members.",
+      "To foster teamwork and innovation among team members",
   },
   {
     id: "feature-3",

@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, link }) => (
     className={`flex flex-row p-12 sponsor-info-card`} 
     id='sponsors'
   >
-    <img src={icon} alt="star" className="max-w-fit h-[50px] object-contain sponsor-image" />
+    <img src={icon} alt="star" className="max-w-fit h-[50px] object-contain" />
   </div>
 );
 
