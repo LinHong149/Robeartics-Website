@@ -209,7 +209,7 @@ export const footerLinks = [
     links: [
       {
         name: "19498 Devolotics",
-        link: "https://devolotics.bethuneci.com/",
+        link: "https://devolotics.bethuneci.com",
       },
       {
         name: "21393 Koko",
